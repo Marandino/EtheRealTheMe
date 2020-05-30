@@ -21,7 +21,7 @@ var blue = '#46b1c9ff';
 var pink = ' #f00699ff ';
 //Variables for Functions
 var lyricalIndex = '1';
-var lyrics = [ 'Gimme Gimme Gimme', 'A man after midnight', "Won't somebody help me", 'Chase the shadows away' ];
+var lyrics = [ "Don't Click Me", 'Stop Clicking Me', 'Welp', "I've got no hope left" ];
 //define the string
 var string = '';
 //define the noun pool
