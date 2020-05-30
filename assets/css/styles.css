@@ -1,0 +1,149 @@
+/* 
+#001011ff
+#bf211eff
+#bf211eff
+#fde74cff
+#46b1c9ff
+#f00699ff 
+*/
+/* font-family: 'Chelsea Market', cursive;
+font-family: 'Permanent Marker', cursive; */
+
+body {
+	background-color: #bf211eff;
+	font-family: 'Tomorrow', sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	width: 70%;
+	margin: auto;
+	text-align: center;
+	padding: 100px 0;
+	color: #f7f7f7;
+}
+
+.container h3 {
+	margin-bottom: 2em;
+	text-transform: lowercase;
+}
+.container h3 {
+	text-transform: initial;
+}
+
+button,
+a {
+	font-family: 'Tomorrow', sans-serif;
+	color: #001011ff;
+	padding: 1em;
+	font-weight: 500;
+	/* background-color: rgb(233, 124, 0); */
+	background-color: #fde74cff;
+	outline: none;
+	border: none;
+	margin: .5em;
+	min-width: 95px;
+}
+a {
+	text-decoration: none;
+	font-size: 13px;
+}
+
+button:active {
+	color: #bf211eff;
+	background-color: #f7f7f7;
+	transition-duration: .2s;
+}
+
+.navbar {
+	height: 50px;
+	margin: 0;
+	background-color: rgba(133, 12, 10, 0.877);
+	margin: auto;
+	margin-top: -16px;
+}
+.navbar ul {
+	list-style-type: none;
+	display: flex;
+	justify-content: space-evenly;
+	line-height: 50px;
+	padding: 0;
+	color: #f7f7f7;
+}
+
+.navbar ul li {
+	padding: 0 1em;
+}
+
+.navbar ul li:active {
+	background-color: #f7f7f7;
+	color: #001011ff;
+}
+.navbar ul li:hover {
+	background-color: #f7f7f7;
+	color: #001011ff;
+}
+
+.bolded {
+	font-weight: 600;
+}
+
+#about,
+#rules,
+#custom,
+#ideas {
+	text-align: center;
+	max-width: 570px;
+	width: 70%;
+	margin: auto;
+	color: #f7f7f7;
+	margin-top: 2em;
+	background-image: "./assets/images/background.png";
+}
+
+/* FADE IN - OUT EFFECTS */
+
+.hide {
+	display: none;
+}
+/* UNDERSCORE ANIMATION */
+.underscore {
+	color: #f7f7f7;
+	white-space: pre-wrap;
+	word-wrap: break-word;
+}
+.underscore:after {
+	content: "_";
+	font-weight: bold;
+	animation: blinking 1s step-end infinite;
+}
+@keyframes blinking {
+	from,
+	to {
+		visibility: hidden;
+	}
+	50% {
+		visibility: visible;
+	}
+}
+
+/* alinging vertically the about and the custom pages */
+#readme {
+	padding: 0;
+	max-width: 570px;
+	padding-bottom: 3em;
+}
+#readme h2 {
+	margin-top: -10px;
+}
+
+#custom {
+	padding: 100px 0;
+}
+
+hr {
+	max-width: 80%;
+	background-color: #f7f7f7;
+	border-color: #f7f7f7;
+}
