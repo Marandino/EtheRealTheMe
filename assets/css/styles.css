@@ -1,16 +1,16 @@
 /* 
-#001011ff
-#bf211eff
-#bf211eff
-#fde74cff
-#46b1c9ff
-#f00699ff 
+#7400b8
+#5390d9
+#56cfe1
+#80ffdb
+#64dfdf
+#5e60ce 
 */
 /* font-family: 'Chelsea Market', cursive;
 font-family: 'Permanent Marker', cursive; */
 
 body {
-	background-color: #bf211eff;
+	background-color: #56cfe1;
 	font-family: 'Tomorrow', sans-serif;
 	margin: 0;
 	padding: 0;
@@ -39,7 +39,7 @@ a {
 	padding: 1em;
 	font-weight: 500;
 	/* background-color: rgb(233, 124, 0); */
-	background-color: #fde74cff;
+	background-color: #80ffdb;
 	outline: none;
 	border: none;
 	margin: .5em;
@@ -51,7 +51,7 @@ a {
 }
 
 button:active {
-	color: #bf211eff;
+	color: #56cfe1;
 	background-color: #f7f7f7;
 	transition-duration: .2s;
 }
@@ -59,7 +59,7 @@ button:active {
 .navbar {
 	height: 50px;
 	margin: 0;
-	background-color: rgba(133, 12, 10, 0.877);
+	background-color: #5390d9;
 	margin: auto;
 	margin-top: -16px;
 }
